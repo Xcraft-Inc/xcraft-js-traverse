@@ -1,5 +1,5 @@
 {
-	"name": "traverse",
+	"name": "xcraft-traverse",
 	"version": "0.6.9",
 	"description": "traverse and transform objects by visiting every node on a recursive walk",
 	"main": "index.js",
@@ -57,9 +57,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/js-traverse.git"
+		"url": "git://github.com/Xcraft-Inc/xcraft-traverse.git"
 	},
-	"homepage": "https://github.com/ljharb/js-traverse",
+	"homepage": "https://github.com/Xcraft-Inc/xcraft-traverse",
 	"keywords": [
 		"traverse",
 		"walk",
