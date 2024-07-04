@@ -2,7 +2,7 @@
 
 var whichTypedArray = require('which-typed-array');
 function taSlice(arr) { return arr.slice(); }
-var gopd = require('gopd');
+var gopd = Object.getOwnPropertyDescriptor;
 
 // TODO: use call-bind, is-date, is-regex, is-string, is-boolean-object, is-number-object
 function toS(obj) { return Object.prototype.toString.call(obj); }

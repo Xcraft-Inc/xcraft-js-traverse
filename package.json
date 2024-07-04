@@ -92,7 +92,6 @@
 		]
 	},
 	"dependencies": {
-		"gopd": "^1.0.1",
 		"which-typed-array": "^1.1.15"
 	},
 	"engines": {
