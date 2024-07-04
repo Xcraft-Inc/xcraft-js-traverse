@@ -1,3 +1,7 @@
+# Xcraft
+
+Fork without external dependencies and without support for old javascript engines.
+
 # traverse <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![github actions][actions-image]][actions-url]
