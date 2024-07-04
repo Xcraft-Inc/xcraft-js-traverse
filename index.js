@@ -1,7 +1,7 @@
 'use strict';
 
 var whichTypedArray = require('which-typed-array');
-var taSlice = require('typedarray.prototype.slice');
+function taSlice(arr) { return arr.slice(); }
 var gopd = require('gopd');
 
 // TODO: use call-bind, is-date, is-regex, is-string, is-boolean-object, is-number-object
