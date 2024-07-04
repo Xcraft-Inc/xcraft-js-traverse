@@ -91,9 +91,7 @@
 			".github/workflows"
 		]
 	},
-	"dependencies": {
-		"which-typed-array": "^1.1.15"
-	},
+	"dependencies": {},
 	"engines": {
 		"node": ">= 18"
 	}

@@ -1,6 +1,5 @@
 'use strict';
 
-var whichTypedArray = require('which-typed-array');
 function taSlice(arr) { return arr.slice(); }
 var gopd = Object.getOwnPropertyDescriptor;
 
@@ -12,6 +11,22 @@ function isError(obj) { return toS(obj) === '[object Error]'; }
 function isBoolean(obj) { return toS(obj) === '[object Boolean]'; }
 function isNumber(obj) { return toS(obj) === '[object Number]'; }
 function isString(obj) { return toS(obj) === '[object String]'; }
+
+function whichTypedArray(obj) {
+	var s = toS(obj);
+	return s === '[object Int8Array]'
+		|| s === '[object Uint8Array]'
+		|| s === '[object Uint8ClampedArray]'
+		|| s === '[object Int16Array]'
+		|| s === '[object Uint16Array]'
+		|| s === '[object Int32Array]'
+		|| s === '[object Uint32Array]'
+		|| s === '[object Float16Array]'
+		|| s === '[object Float32Array]'
+		|| s === '[object Float64Array]'
+		|| s === '[object BigInt64Array]'
+		|| s === '[object BigUint64Array]';
+}
 
 // TODO: use isarray
 var isArray = Array.isArray || function isArray(xs) {
