@@ -95,6 +95,6 @@
 		"which-typed-array": "^1.1.15"
 	},
 	"engines": {
-		"node": ">= 0.4"
+		"node": ">= 18"
 	}
 }
